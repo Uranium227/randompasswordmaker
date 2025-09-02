@@ -17,9 +17,9 @@ punctuation = string.punctuation
 allCase = [lowerCase,upperCase,digits,punctuation]
 
 
-for a in range(2):
+for a in range(4):
      password += allCase[0][random.randint(0,25)]
-for a in range(2):
+for a in range(4):
      password += allCase[1][random.randint(0,25)]
 for a in range(2):
      password += allCase[2][random.randint(0,9)]
@@ -37,5 +37,6 @@ password = ""
 
 for i in lastPassword:
      password += i
+
 
 print(password)
