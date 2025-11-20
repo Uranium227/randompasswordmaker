@@ -1,9 +1,3 @@
-"""
-Random Password Maker for python 3
-
-
-"""
-
 import random
 import string
 
@@ -40,3 +34,4 @@ for i in lastPassword:
 
 
 print(password)
+
