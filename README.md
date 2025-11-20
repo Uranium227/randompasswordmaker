@@ -1,28 +1,25 @@
-Random Password Maker
+# Random Password Maker
 
-This project is a simple Python 3 script that generates a random strong password. The password includes a combination of lowercase letters, uppercase letters, digits, and special characters.
+A simple Python 3 script to generate strong random passwords.
+The password includes lowercase letters, uppercase letters, digits, and special characters.
 
-Features
+## Features
 
-1. 4 lowercase letters
-2. 4 uppercase letters
-3. 2 digits
-4. 2 special characters
+- 4 lowercase letters
+- 4 uppercase letters
+- 2 digits
+- 2 special characters
+- Characters are shuffled to create a secure password
 
-Characters are shuffled to create a secure password
+## Requirements
 
-Requirements
+- Python 3.x
+- Standard libraries only (`random` and `string`)
 
-1. Python 3.x
+## Usage
 
-2. Standard libraries only (random and string), no additional packages needed
+1. Download the project or copy the code into a file named `random_password_maker.py`.
+2. Run the script:
 
-Usage
-
-1. Download the project or copy the code into a .py file, for example password_maker.py.
-
-2.Run the script in your terminal or command prompt:
-python password_maker.py
-
-
-The script will print a randomly generated strong password to the console.
+```bash
+python random_password_maker.py
